@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/projectId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project ID"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/projectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/projectDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Description"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/endDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Manager"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Status"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Budget"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/specialRequirements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Special Requirements (Optional)"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/clientInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Client/Department Information (Optional)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Project" />
+
+</LinearLayout>
